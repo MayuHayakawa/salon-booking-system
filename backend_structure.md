@@ -4,10 +4,10 @@ backend
 ├── config
 │   └── db.js
 ├── controller
-│   ├── auth.js --{ userRegister, staffRegister, userLogin, staffLogin, refresh }
-│   ├── booking.js --{ getBooking, addBooking, updataBooking, deleteBooking }
+│   ├── auth.js --{ userRegister, staffRegister, userLogin, staffLogin, refresh } //not useing staffLogin and refresh
+│   ├── booking.js --{ getBooking, addBooking, updateBooking, deleteBooking } //not using updateBooking
 │   ├── menu.js --{ getMenu, addMenu, updateMenu, deleteMenu }
-│   ├── staff.js --{ getAllStaff, getStaffProfile, updateStaffProfile, deleteStaffProfile }
+│   ├── staff.js --{ getAllStaff, getStaffProfile, updateStaffProfile, deleteStaffProfile } //not using getStaffProfile
 │   ├── staffschedule.js //not using for now --{ getSchedule, addSchedule, updataSchedule, deleteSchedule }
 │   └── user.js --{ getUserProfile, updateUserProfile }
 ├── middleware
