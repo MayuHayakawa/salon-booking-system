@@ -4,21 +4,24 @@ backend
 ├── config
 │   └── db.js
 ├── controller
-│   ├── book.js
+│   ├── auth.js
+│   ├── booking.js
 │   ├── menu.js
 │   ├── staff.js
+│   ├── staffschedule.js //not using for now
 │   └── user.js
 ├── middleware
 │   ├── authentication.js
-│   ├── checkStaff.js
-│   └── checkUser.js
+│   ├── checkStaff.js //not using for now 
+│   └── checkUser.js //not using for now
 ├── model
-│   ├── book.js
+│   ├── booking.js
 │   ├── menu.js
 │   ├── staff.js
 │   └── user.js
 ├── route
-│   ├── book.js
+│   ├── auth.js
+│   ├── booking.js
 │   ├── menu.js
 │   ├── staff.js
 │   └── user.js
